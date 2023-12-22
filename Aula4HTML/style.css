@@ -1,0 +1,19 @@
+div{
+    background-color: blue;
+    margin: 15px;
+    padding: 15px;
+    border: 5px solid black;
+    height: 200px;
+    /* DISPLAY FLEX FAZ COM QUE OS ITENS FIQUEM UM DO LADO DO OUTRO */
+    display: flex;
+    /* JUSTIFY-CONTENT É O ALINHAMENTO NA HORIZONTAL */
+    justify-content: space-evenly;
+    /* ALIGIN ITEMS É O ALINHAMENTO NA VERTICAL */
+    align-items: center;
+    /* GAP É UM ESPAÇO ENTRE OS ITENS */
+    gap: 10px;
+}
+
+p{
+    background-color: red;
+}
